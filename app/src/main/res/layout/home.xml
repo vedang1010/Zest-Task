@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="148dp"
+            android:layout_height="127dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="92dp"
+            android:onClick="gotoAdmin"
+            android:text="ADMIN"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="154dp"
+            android:layout_height="127dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="28dp"
+            android:onClick="gotoShowPolls"
+            android:text="VIEW MATCHES"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="164dp"
+            android:layout_height="50dp"
+            android:onClick="gotoLOGIN"
+            android:text="LogOut"
+            app:layout_constraintEnd_toEndOf="@+id/button4"
+            app:layout_constraintStart_toStartOf="@+id/button3"
+            tools:layout_editor_absoluteY="329dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/sportSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:contextClickable="false"
+        android:prompt="@string/select_sport_prompt" />
+
+    <Spinner
+        android:id="@+id/matchSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:prompt="@string/select_match_prompt" />
+
+    <TextView
+        android:id="@+id/team1NameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team 1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/team1ScoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/increaseTeam1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Increase Team 1 Score" />
+
+    <Button
+        android:id="@+id/decreaseTeam1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Decrease Team 1 Score" />
+
+    <TextView
+        android:id="@+id/team2NameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Team 2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/team2ScoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/increaseTeam2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Increase Team 2 Score" />
+
+    <Button
+        android:id="@+id/decreaseTeam2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Decrease Team 2 Score" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:onClick="gotoCreateMatch"
+        android:text="Back to Admin Page" />
+    <Button
+        android:id="@+id/updateScoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Score"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

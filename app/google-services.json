@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "869447248133",
+    "firebase_url": "https://zest-task-default-rtdb.firebaseio.com",
+    "project_id": "zest-task",
+    "storage_bucket": "zest-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869447248133:android:38284557fee4ad52bdef6c",
+        "android_client_info": {
+          "package_name": "com.example.zest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869447248133-577pn61s712oaq9hiuoohab0b4b1i6pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zest",
+            "certificate_hash": "ae1ae8b0a2ba6b0c3dca9cab163a72232230608f"
+          }
+        },
+        {
+          "client_id": "869447248133-hj8heriopksp7cfu0pm0qs75l2cnm7dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKSV1db34FaglCq1iINiyeniepyZs4faE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869447248133-hj8heriopksp7cfu0pm0qs75l2cnm7dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
